@@ -1,0 +1,81 @@
+{
+  "id": "MA30",
+  "kind": "major",
+  "title": "Mathematics–Computer Science B.S. (MA30)",
+  "catalogYears": ["2026-27"],
+  "match": { "majorCode": "MA30" },
+  "auditSection": "major",
+  "advisor": "Mathematics Undergraduate Advising (vac.ucsd.edu)",
+  "sources": [
+    { "label": "UC San Diego General Catalog: Mathematics–Computer Science (MA30)", "url": "https://catalog.ucsd.edu/curric/MATH-ug.html" },
+    { "label": "Mathematics department: MA30 Math-Computer Science B.S.", "url": "https://math.ucsd.edu/students/undergraduate/ma30-math-computer-science-b-s" }
+  ],
+  "notes": [
+    "From the 2026-27 catalog. Earlier catalog years can differ; the department lists requirements by entry year.",
+    "A single course may not fulfill more than one requirement (56 unique upper-division units).",
+    "Students who finish MATH 31AH-BH-CH may replace MATH 109 with a four-unit upper-division math elective; this tool doesn't apply that substitution automatically."
+  ],
+  "policy": { "exclusive": true, "minGrade": "C-", "letterGrade": true },
+  "groups": [
+    {
+      "title": "Lower Division",
+      "requirements": [
+        {
+          "id": "calc", "title": "Linear algebra and calculus",
+          "oneOf": [
+            { "label": "MATH 18 and 20A-E", "slots": [["MATH 18"], ["MATH 20A"], ["MATH 20B"], ["MATH 20C"], ["MATH 20D"], ["MATH 20E"]] },
+            { "label": "Honors MATH 31AH-CH and 20D", "slots": [["MATH 31AH"], ["MATH 31BH"], ["MATH 31CH"], ["MATH 20D"]] }
+          ]
+        },
+        { "id": "cse-lower", "title": "Lower-division CSE", "slots": [["CSE 11"], ["CSE 15L", "CSE 29"], ["CSE 12"]] }
+      ]
+    },
+    {
+      "title": "Upper Division",
+      "requirements": [
+        { "id": "reasoning", "title": "Mathematical Reasoning (MATH 109)", "slots": [["MATH 109"]] },
+        {
+          "id": "algebra", "title": "Algebra sequence",
+          "oneOf": [
+            { "label": "Modern Applied Algebra", "slots": [["MATH 103A"], ["MATH 103B"]] },
+            { "label": "Modern Algebra", "slots": [["MATH 100A"], ["MATH 100B"]] }
+          ]
+        },
+        { "id": "cs-core", "title": "CSE core", "slots": [["CSE 105"], ["CSE 100"], ["CSE 101"]] },
+        { "id": "prob", "title": "Introduction to Probability", "slots": [["MATH 180A", "MATH 183"]] },
+        { "id": "discrete", "title": "Discrete math or combinatorics", "slots": [["MATH 154", "MATH 158", "MATH 184", "MATH 188"]] },
+        {
+          "id": "applied", "title": "Applied mathematics electives (8 units)", "units": 8,
+          "options": ["MATH 170A", "MATH 170B", "MATH 170C", "MATH 171A", "MATH 171B", "MATH 173A", "MATH 173B", "MATH 174", "MATH 175",
+                      "MATH 179", "MATH 180B", "MATH 180C", "MATH 181A", "MATH 181B", "MATH 181C", "MATH 181E"]
+        },
+        {
+          "id": "computational", "title": "Computational electives (8 units)", "units": 8,
+          "options": ["MATH 152", "MATH 154", "MATH 155A", "MATH 155B", "MATH 157", "MATH 158", "MATH 160A", "MATH 160B", "MATH 168A", "MATH 182",
+                      "MATH 184", "MATH 185", "MATH 187A", "MATH 187B", "MATH 188", "MATH 189",
+                      "CSE 107", "CSE 110", "CSE 112", "CSE 120", "CSE 121", "CSE 123", "CSE 124", "CSE 127", "CSE 130", "CSE 131", "CSE 132A",
+                      "CSE 132B", "CSE 134B", "CSE 140", "CSE 140L", "CSE 141", "CSE 141L", "CSE 142", "CSE 150A", "CSE 150B", "CSE 151A",
+                      "CSE 152A", "CSE 152B", "CSE 158", "CSE 160", "CSE 165", "CSE 167", "CSE 168", "CSE 169", "CSE 176A",
+                      "COGS 108", "COGS 118A", "COGS 118B", "COGS 120", "COGS 185", "COGS 188"]
+        },
+        {
+          "id": "general", "title": "General Math–CS electives (8 units)", "units": 8,
+          "options": ["MATH 170A", "MATH 170B", "MATH 170C", "MATH 171A", "MATH 171B", "MATH 173A", "MATH 173B", "MATH 174", "MATH 175",
+                      "MATH 179", "MATH 180B", "MATH 180C", "MATH 181A", "MATH 181B", "MATH 181C", "MATH 181E",
+                      "MATH 152", "MATH 154", "MATH 155A", "MATH 155B", "MATH 157", "MATH 158", "MATH 160A", "MATH 160B", "MATH 168A", "MATH 182",
+                      "MATH 184", "MATH 185", "MATH 187A", "MATH 187B", "MATH 188", "MATH 189",
+                      "CSE 107", "CSE 110", "CSE 112", "CSE 120", "CSE 121", "CSE 123", "CSE 124", "CSE 127", "CSE 130", "CSE 131", "CSE 132A",
+                      "CSE 132B", "CSE 134B", "CSE 140", "CSE 140L", "CSE 141", "CSE 141L", "CSE 142", "CSE 150A", "CSE 150B", "CSE 151A",
+                      "CSE 152A", "CSE 152B", "CSE 158", "CSE 160", "CSE 165", "CSE 167", "CSE 168", "CSE 169", "CSE 176A",
+                      "COGS 108", "COGS 118A", "COGS 118B", "COGS 120", "COGS 185", "COGS 188",
+                      "MATH 100C", "MATH 102", "MATH 104A", "MATH 104B", "MATH 106", "MATH 110", "MATH 111A", "MATH 111B", "MATH 114",
+                      "MATH 120A", "MATH 120B", "MATH 130", "MATH 140A", "MATH 140B", "MATH 142A", "MATH 142B", "MATH 144", "MATH 150A",
+                      "MATH 150B", "MATH 163", "MATH 181D", "MATH 181F", "MATH 190A", "MATH 190B", "MATH 193A", "MATH 193B", "MATH 194"]
+        }
+      ]
+    }
+  ],
+  "checks": [
+    { "id": "gpa", "type": "programGPA", "title": "Major GPA of 2.0 or higher", "min": 2.0 }
+  ]
+}

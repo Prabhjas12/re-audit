@@ -1,0 +1,186 @@
+{
+  "id": "MC27",
+  "kind": "major",
+  "title": "Mechanical Engineering B.S. (MC27)",
+  "catalogYears": [
+    "2026-27"
+  ],
+  "auditSection": "major",
+  "advisor": "MAE Student Affairs (vac.ucsd.edu)",
+  "sources": [
+    {
+      "label": "UC San Diego General Catalog: Mechanical and Aerospace Engineering",
+      "url": "https://catalog.ucsd.edu/curric/MAE-ug.html"
+    }
+  ],
+  "notes": [
+    "From the 2026-27 catalog's recommended program.",
+    "Technical electives need department approval and can include other engineering, science or math courses. Here they count upper-division MAE courses only; others show as missing unless the official audit counts them.",
+    "MAE 197 can't count as a technical elective; MAE 198 and 199 only under the department's conditions."
+  ],
+  "policy": {
+    "exclusive": true,
+    "minGrade": "C-",
+    "letterGrade": true
+  },
+  "groups": [
+    {
+      "title": "Lower Division",
+      "requirements": [
+        {
+          "id": "math",
+          "title": "Mathematics",
+          "slots": [
+            [
+              "MATH 18"
+            ],
+            [
+              "MATH 20A"
+            ],
+            [
+              "MATH 20B"
+            ],
+            [
+              "MATH 20C"
+            ],
+            [
+              "MATH 20D"
+            ],
+            [
+              "MATH 20E"
+            ]
+          ]
+        },
+        {
+          "id": "physics",
+          "title": "Physics",
+          "slots": [
+            [
+              "PHYS 2A"
+            ],
+            [
+              "PHYS 2B"
+            ],
+            [
+              "PHYS 2C"
+            ]
+          ]
+        },
+        {
+          "id": "chem",
+          "title": "Chemistry",
+          "slots": [
+            [
+              "CHEM 6A",
+              "CHEM 6AH"
+            ]
+          ]
+        },
+        {
+          "id": "mae-lower",
+          "title": "Lower-division MAE",
+          "slots": [
+            [
+              "MAE 3"
+            ],
+            [
+              "MAE 8"
+            ],
+            [
+              "MAE 11"
+            ],
+            [
+              "MAE 20"
+            ],
+            [
+              "MAE 30A"
+            ],
+            [
+              "MAE 30B"
+            ],
+            [
+              "MAE 40"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Upper Division",
+      "requirements": [
+        {
+          "id": "core",
+          "title": "Upper-division MAE core",
+          "slots": [
+            [
+              "MAE 101A"
+            ],
+            [
+              "MAE 101B"
+            ],
+            [
+              "MAE 101C"
+            ],
+            [
+              "MAE 105"
+            ],
+            [
+              "MAE 107"
+            ],
+            [
+              "MAE 131A"
+            ],
+            [
+              "MAE 160",
+              "MAE 131B"
+            ],
+            [
+              "MAE 143A"
+            ],
+            [
+              "MAE 143B"
+            ],
+            [
+              "MAE 150"
+            ],
+            [
+              "MAE 156A"
+            ],
+            [
+              "MAE 156B"
+            ],
+            [
+              "MAE 170"
+            ],
+            [
+              "MAE 171A"
+            ]
+          ]
+        },
+        {
+          "id": "tech",
+          "title": "Technical electives (5)",
+          "count": 5,
+          "options": [
+            "MAE 100-199",
+            "MAE 200-299"
+          ],
+          "except": [
+            "MAE 195",
+            "MAE 197",
+            "MAE 198",
+            "MAE 199"
+          ]
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "gpa",
+      "type": "programGPA",
+      "title": "Major GPA of 2.0 or higher",
+      "min": 2.0
+    }
+  ]
+}

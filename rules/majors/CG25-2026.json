@@ -1,0 +1,130 @@
+{
+  "id": "CG25",
+  "kind": "major",
+  "title": "Cognitive Science B.A. (CG25)",
+  "catalogYears": [
+    "2026-27"
+  ],
+  "auditSection": "major",
+  "advisor": "Cognitive Science Undergraduate Advising (vac.ucsd.edu)",
+  "sources": [
+    {
+      "label": "UC San Diego General Catalog: Cognitive Science",
+      "url": "https://catalog.ucsd.edu/curric/COGS-ug.html"
+    }
+  ],
+  "notes": [
+    "From the 2026-27 catalog. The catalog lists six electives in one place and seven in another; six is checked here. Confirm with the department.",
+    "COGS 190A-C, 195, 198 and 199 can't be used as B.A. electives. Electives count upper-division COGS courses; approved outside courses show as missing unless the official audit counts them."
+  ],
+  "policy": {
+    "exclusive": true,
+    "minGrade": "C-",
+    "letterGrade": true
+  },
+  "groups": [
+    {
+      "title": "Lower Division",
+      "requirements": [
+        {
+          "id": "math",
+          "title": "Mathematics",
+          "oneOf": [
+            {
+              "label": "MATH 10A-C",
+              "slots": [
+                [
+                  "MATH 10A"
+                ],
+                [
+                  "MATH 10B"
+                ],
+                [
+                  "MATH 10C"
+                ]
+              ]
+            },
+            {
+              "label": "MATH 20A-B and 18",
+              "slots": [
+                [
+                  "MATH 20A"
+                ],
+                [
+                  "MATH 20B"
+                ],
+                [
+                  "MATH 18"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cogs-lower",
+          "title": "Cognitive Science lower division",
+          "slots": [
+            [
+              "COGS 1"
+            ],
+            [
+              "COGS 10",
+              "DSGN 1"
+            ],
+            [
+              "COGS 13"
+            ],
+            [
+              "COGS 14A"
+            ],
+            [
+              "COGS 17"
+            ],
+            [
+              "COGS 18",
+              "CSE 7",
+              "CSE 8A",
+              "CSE 11"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Upper Division",
+      "requirements": [
+        {
+          "id": "core",
+          "title": "Core (any 6)",
+          "count": 6,
+          "options": [
+            "COGS 100",
+            "COGS 101A",
+            "COGS 101B",
+            "COGS 101C",
+            "COGS 107A",
+            "COGS 107B",
+            "COGS 107C",
+            "COGS 108"
+          ]
+        },
+        {
+          "id": "electives",
+          "title": "Electives (6)",
+          "count": 6,
+          "options": [
+            "COGS 100-189"
+          ]
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "gpa",
+      "type": "programGPA",
+      "title": "Major GPA of 2.0 or higher",
+      "min": 2.0
+    }
+  ]
+}

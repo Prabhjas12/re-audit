@@ -1,0 +1,216 @@
+{
+  "id": "BI31",
+  "kind": "major",
+  "title": "General Biology B.S. (BI31)",
+  "catalogYears": [
+    "2026-27"
+  ],
+  "auditSection": "major",
+  "advisor": "Biological Sciences Undergraduate Advising (vac.ucsd.edu)",
+  "sources": [
+    {
+      "label": "UC San Diego General Catalog: Biological Sciences",
+      "url": "https://catalog.ucsd.edu/curric/BIOL-ug.html"
+    }
+  ],
+  "notes": [
+    "From the 2026-27 catalog.",
+    "Electives are 20 units with a six-unit lab, or 22 units with two four-unit labs; 20 is checked here.",
+    "At least 20 upper-division School of Biological Sciences units must be taken at UC San Diego."
+  ],
+  "policy": {
+    "exclusive": true,
+    "minGrade": "C-",
+    "letterGrade": true
+  },
+  "groups": [
+    {
+      "title": "Lower Division",
+      "requirements": [
+        {
+          "id": "bild",
+          "title": "Biology",
+          "slots": [
+            [
+              "BILD 1"
+            ],
+            [
+              "BILD 2"
+            ],
+            [
+              "BILD 3"
+            ],
+            [
+              "BILD 4"
+            ],
+            [
+              "BILD 5"
+            ]
+          ]
+        },
+        {
+          "id": "chem",
+          "title": "General and organic chemistry",
+          "slots": [
+            [
+              "CHEM 6A"
+            ],
+            [
+              "CHEM 6B"
+            ],
+            [
+              "CHEM 6C"
+            ],
+            [
+              "CHEM 7L"
+            ],
+            [
+              "CHEM 40A"
+            ],
+            [
+              "CHEM 40B"
+            ]
+          ]
+        },
+        {
+          "id": "math",
+          "title": "Mathematics",
+          "oneOf": [
+            {
+              "label": "MATH 20A-B and 11",
+              "slots": [
+                [
+                  "MATH 20A"
+                ],
+                [
+                  "MATH 20B"
+                ],
+                [
+                  "MATH 11"
+                ]
+              ]
+            },
+            {
+              "label": "MATH 10A-B and 11",
+              "slots": [
+                [
+                  "MATH 10A"
+                ],
+                [
+                  "MATH 10B"
+                ],
+                [
+                  "MATH 11"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "physics",
+          "title": "Physics",
+          "oneOf": [
+            {
+              "label": "PHYS 1A-C with labs",
+              "slots": [
+                [
+                  "PHYS 1A"
+                ],
+                [
+                  "PHYS 1AL"
+                ],
+                [
+                  "PHYS 1B"
+                ],
+                [
+                  "PHYS 1BL"
+                ],
+                [
+                  "PHYS 1C"
+                ],
+                [
+                  "PHYS 1CL"
+                ]
+              ]
+            },
+            {
+              "label": "PHYS 2A-C and one lab",
+              "slots": [
+                [
+                  "PHYS 2A"
+                ],
+                [
+                  "PHYS 2B"
+                ],
+                [
+                  "PHYS 2C"
+                ],
+                [
+                  "PHYS 2BL",
+                  "PHYS 2CL",
+                  "PHYS 2DL"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Upper Division",
+      "requirements": [
+        {
+          "id": "core",
+          "title": "Core",
+          "slots": [
+            [
+              "BIBC 100",
+              "CHEM 114A",
+              "BIBC 102",
+              "CHEM 114B"
+            ],
+            [
+              "BICD 100"
+            ],
+            [
+              "BIEB 100-199"
+            ],
+            [
+              "BIMM 100"
+            ],
+            [
+              "BIPN 100"
+            ]
+          ]
+        },
+        {
+          "id": "lab",
+          "title": "Upper-division lab",
+          "manual": true,
+          "help": "One upper-division six-unit lab, or two labs of at least four units (BISP 196, 197 or 199 can be one). Which courses count as labs isn't checked here; the official audit's status is used."
+        },
+        {
+          "id": "electives",
+          "title": "Upper-division biology electives (20 units)",
+          "units": 20,
+          "options": [
+            "BIBC 100-199",
+            "BICD 100-199",
+            "BIEB 100-199",
+            "BIMM 100-199",
+            "BIPN 100-199",
+            "BISP 193-199"
+          ]
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "gpa",
+      "type": "programGPA",
+      "title": "Major GPA of 2.0 or higher",
+      "min": 2.0
+    }
+  ]
+}

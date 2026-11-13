@@ -1,0 +1,71 @@
+{
+  "id": "BI35",
+  "kind": "major",
+  "title": "Human Biology B.S. (BI35)",
+  "catalogYears": ["2026-27"],
+  "match": { "majorCode": "BI35" },
+  "auditSection": "major",
+  "advisor": "Biological Sciences Undergraduate Advising (vac.ucsd.edu)",
+  "sources": [
+    { "label": "UC San Diego General Catalog: Biological Sciences (Human Biology)", "url": "https://catalog.ucsd.edu/curric/BIOL-ug.html" }
+  ],
+  "notes": [
+    "From the 2026-27 catalog.",
+    "The lab and elective rules are simplified: this checks for one of the listed core labs and 8 upper-division biology elective units. If you choose two four-unit labs, you also need a second lab and 10 elective units; check with advising.",
+    "At least 20 upper-division School of Biological Sciences units must be taken at UC San Diego, and transfer courses need full content equivalency."
+  ],
+  "policy": { "exclusive": true, "minGrade": "C-", "letterGrade": true },
+  "groups": [
+    {
+      "title": "Lower Division",
+      "requirements": [
+        { "id": "bild", "title": "Biology", "slots": [["BILD 1"], ["BILD 2"], ["BILD 3"], ["BILD 4"], ["BILD 5"]] },
+        { "id": "chem", "title": "General and organic chemistry", "slots": [["CHEM 6A"], ["CHEM 6B"], ["CHEM 6C"], ["CHEM 7L"], ["CHEM 40A"], ["CHEM 40B"]] },
+        {
+          "id": "math", "title": "Mathematics",
+          "oneOf": [
+            { "label": "MATH 20A-B and 11", "slots": [["MATH 20A"], ["MATH 20B"], ["MATH 11"]] },
+            { "label": "MATH 10A-B and 11", "slots": [["MATH 10A"], ["MATH 10B"], ["MATH 11"]] }
+          ]
+        },
+        {
+          "id": "physics", "title": "Physics",
+          "oneOf": [
+            { "label": "PHYS 1A-C with labs", "slots": [["PHYS 1A"], ["PHYS 1AL"], ["PHYS 1B"], ["PHYS 1BL"], ["PHYS 1C"], ["PHYS 1CL"]] },
+            { "label": "PHYS 2A-C and one lab", "slots": [["PHYS 2A"], ["PHYS 2B"], ["PHYS 2C"], ["PHYS 2BL", "PHYS 2CL", "PHYS 2DL"]] }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Upper Division",
+      "requirements": [
+        {
+          "id": "core", "title": "Core",
+          "slots": [["BIBC 102", "CHEM 114B"], ["BICD 100"], ["BICD 110"], ["BIMM 100"], ["BIPN 100"]]
+        },
+        {
+          "id": "physiology-disease", "title": "Human physiology and disease (3 courses, at least one of each)",
+          "slots": [
+            ["BIBC 120", "BICD 130", "BICD 140", "BIMM 116", "BIPN 102", "BIPN 108", "BIPN 120", "BIPN 134", "BIPN 140"],
+            ["BICD 136", "BIEB 146", "BIEB 152", "BIEB 158", "BIMM 110", "BIMM 114", "BIMM 118", "BIMM 124", "BIMM 134", "BIPN 150", "BIPN 152"],
+            ["BIBC 120", "BICD 130", "BICD 140", "BIMM 116", "BIPN 102", "BIPN 108", "BIPN 120", "BIPN 134", "BIPN 140",
+             "BICD 136", "BIEB 146", "BIEB 152", "BIEB 158", "BIMM 110", "BIMM 114", "BIMM 118", "BIMM 124", "BIMM 134", "BIPN 150", "BIPN 152"]
+          ]
+        },
+        {
+          "id": "lab", "title": "Upper-division lab",
+          "count": 1, "options": ["BIBC 103", "BICD 101", "BICD 145", "BIMM 101", "BIMM 121", "BIMM 143"],
+          "help": "One six-unit lab, or two labs of at least four units (one from this list)."
+        },
+        {
+          "id": "electives", "title": "Upper-division biology electives (8 units)", "units": 8,
+          "options": ["BIBC 100-199", "BICD 100-199", "BIEB 100-199", "BIMM 100-199", "BIPN 100-199", "BISP 193-199"]
+        }
+      ]
+    }
+  ],
+  "checks": [
+    { "id": "gpa", "type": "programGPA", "title": "Major GPA of 2.0 or higher", "min": 2.0 }
+  ]
+}

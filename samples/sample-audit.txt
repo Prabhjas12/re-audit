@@ -1,0 +1,113 @@
+11/10/26, 9:02 AM  My Audit - Audit Results Tab
+Sample Student  Request Audit
+UNT  11/10/2026 09:00 AM  TSS Program SIECONBS004  TSS Catalog Fall 2026
+Prepared On  Code  Year
+TSS Student 000000000  Graduation  Job ID 0000000000000000
+Number  Date
+UNT Audit Results
+Open All Sections  Close All Sections  Printer Friendly
+AT LEAST ONE REQUIREMENT HAS NOT BEEN SATISFIED
+UC GPA
+You need a minimum of 180 units
+Your degree program may require more.
+EARNED: 102.00 Units
+>> MAJOR REQUIREMENTS <<
+Any given course can only satisfy one major requirement
+(EN31) ECONOMICS - BS
+Economics (BS) Lower Division Requirements
+EARNED:  1 requirement
+NEEDS:  1 requirement
+1) Mathematics
+FA23 MATH-020A  5.00 TB+  Calculus/Science & Engineerin
+WI24 MATH-020B  5.00 TA-  Calculus/Science & Engineerin
+SP24 MATH-020C  5.00 TB  Calculus&Analyt Geom/Sci&Engn
+2) Economics Lower Division
+WI24 ECON-001  5.00 TA  Principles of Microeconomics
+SP24 ECON-003  5.00 TA-  Principles of Macroeconomics
+NEEDS:  1 Course
+COURSES:  ECON- 005 POLI- 005
+Economics BS Upper Division Requirements and Major GPA
+NEEDS: 40.00 Units  2 requirements  2.000 GPA
+1) Core
+FA25 ECON-100A  4.00 A-  Microeconomics A
+WI26 ECON-100B  4.00 B  Microeconomics B
+WI26 ECON-120A  4.00 A-  Econometrics A
+NEEDS:  5 Courses
+COURSES:  ECON- 100A,100B,100C,110A,110B,120A,120B
+ECON- 120C
+2) Electives
+NEEDS:  5 Courses
+COURSES:  ECON- 100 TO
+ECON- 199
+>> COLLEGE REQUIREMENTS << FA2025
+SIXTH COLLEGE GENERAL EDUCATION
+GENERAL TRANSFER STATUS
+Sixth College General Education Requirements
+For a list of courses, please go to http://sixth.ucsd.edu
+Click on Academics and GE and Graduation Requirements.
+EARNED:  1 requirement
+NEEDS:  9 requirements
+1) Transfer Composition - Please speak with Sixth College
+advisor for options.
+FA23 WRIT 1  5.00 tA-  Introduction To Composition
+NEEDS:  1 Course
+COURSES:  ENGL* [*omp*], [*COmp*], [*COMP*] WRIT* [*omp*] WRIT- 002(X)
+2) Information Technology Fluency
+NEEDS:  1 Course
+3) Social Analysis
+Choose from 2 different departments
+FA24 PSYC-001  5.00 TA  Psychology
+NEEDS:  1 Course
+4) Narrative, Aesthetic and Historical Reasoning
+NEEDS: 8.00 Units
+5) Analytic Methodologies/Scientific Method
+NEEDS: 8.00 Units
+6) Structured Reasoning
+FA23 MATH-020A  5.00 TB+  Calculus/Science & Engineerin
+7) Exploring Data
+NEEDS:  1 Course
+8) Art Making
+NEEDS: 8.00 Units
+9) Experiential Learning
+Visit sixth.ucsd.edu/elr to learn more
+NEEDS:  1 Course
+10) CAT 125: Public Rhetoric and Practical Communication
+NEEDS:  1 Course
+>> UNIVERSITY REQUIREMENTS <<
+UC Writing and AHI, DEI
+EARNED:  2 requirements
+NEEDS:  1 requirement
+1) Entry Level Writing Requirement (ELWR)
+2) American History and Institutions (AHI)
+3) Diversity, Equity and Inclusion (DEI)
+One course required
+Click on 'Current List of DEI Courses' at:
+https://senate.ucsd.edu/media/513521/
+dei-list-of-courses.pdf
+NEEDS:  1 Course
+Maximum of 25% Pass/No Pass
+Minimum Upper Division Units
+EARNED: 12.00 Units
+Take at Least 60 Units
+(EAP 100 and EXPR 100 NOT included!)
+NEEDS: 48.00 Units
+Elective Courses
+EARNED: 55.00 Units
+FA23 PHIL 9  5.00 tA-  Introduction To Ethics
+WI24 WRIT 2  5.00 tB+  Rhetoric And Inquiry
+WI24 SOCY 1  5.00 tA-  Introduction To Sociology
+SP24 CSE 20  5.00 tA-  Beginning Programming In Pyth
+SP24 LING 50  5.00 tB+  Introduction To Linguistics
+FA24 HIS 10A  5.00 tA-  United States History
+FA24 STAT 5  5.00 tB+  Statistics
+WI25 LAST 55  5.00 tB  AIDS Across The Americas
+WI25 THEA 10  5.00 tA  Intro To Theater Design
+SP25 ENVS 23  5.00 tB  Intro Environmental Science
+SP25 MUSC 11A  5.00 tP  Intro Western Art Music
+*************** ADDITIONAL INFORMATION ****************
+*** End of Analysis, University of California, San Diego ***
+Legend
+- Complete
+- Planned
+- In Progress
+- Unfulfilled

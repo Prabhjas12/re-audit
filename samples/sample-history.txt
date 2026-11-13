@@ -1,0 +1,93 @@
+My Academic History
+Sample Student
+Academic History
+Undergraduate
+Courses
+By Quarter
+2026/2027 Winter Quarter
+01/04/2027 - 03/20/2027
+Active
+Course	Course Title	Units	Grading Option	Grade	Grade Points
+ECON-100C	Microeconomics C
+4.00
+Letter Grade
+ECON-109	Game Theory
+4.00
+Letter Grade
+ECON-171	Decisions Under Uncertainty
+4.00
+Letter Grade
+2026/2027 Fall Quarter
+09/21/2026 - 12/12/2026
+Active
+Course	Course Title	Units	Grading Option	Grade	Grade Points
+ECON-110A	Macroeconomics A
+4.00
+Letter Grade
+ECON-110B	Macroeconomics B
+4.00
+Letter Grade
+ECON-120C	Econometrics C
+4.00
+Letter Grade
+CAT-125	Public Rhetoric and Practical Communication
+4.00
+Letter Grade
+2025/2026 Summer Session 2
+08/03/2026 - 09/05/2026
+Active
+Course	Course Title	Units	Grading Option	Grade	Grade Points
+BILD-010	Fundamental Concepts of Modern Biology
+4.00
+CNV - Letter Grade	B	12.0000
+2025/2026 Spring Quarter
+03/30/2026 - 06/05/2026
+Active
+Course	Course Title	Units	Grading Option	Grade	Grade Points
+ECON-110A	Macroeconomics A
+4.00
+CNV - Letter Grade	D	4.0000
+ECON-120B	Econometrics B
+4.00
+CNV - Letter Grade	B+	13.2000
+ECON-101	International Trade
+4.00
+CNV - Letter Grade	A-	14.8000
+2025/2026 Winter Quarter
+01/05/2026 - 03/13/2026
+Active
+Course	Course Title	Units	Grading Option	Grade	Grade Points
+ECON-100B	Microeconomics B
+4.00
+CNV - Letter Grade	B	12.0000
+ECON-120A	Econometrics A
+4.00
+CNV - Letter Grade	A-	14.8000
+ECON-131	Economics of the Environment
+4.00
+CNV - Letter Grade	B+	13.2000
+HILD-002A	United States History
+4.00
+CNV - Letter Grade	A-	14.8000
+MUS-095W	Wind Ensemble
+2.00
+CNV - Pass/No Pass	P
+2025/2026 Fall Quarter
+09/25/2025 - 12/12/2025
+Active
+Course	Course Title	Units	Grading Option	Grade	Grade Points
+ECON-005	Data Analytics for the Social Sciences
+4.00
+CNV - Letter Grade	B+	13.2000
+ECON-100A	Microeconomics A
+4.00
+CNV - Letter Grade	A-	14.8000
+ANTH-021	Race and Racisms
+4.00
+CNV - Letter Grade	A	16.0000
+External Work
+School Name	Issue Date	Total Credits
+Ca UC Santa Cruz Santa Cruz	07/15/2025	90.00
+Academic Events
+Undergraduate	UC ENTRLVL WRITNG REQT SA	09/25/2025	12/31/9999
+Undergraduate	AMER HIST& INST REQT SATI	09/25/2025	12/31/9999

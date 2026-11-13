@@ -1,0 +1,157 @@
+{
+  "university": "university/ucsd.json",
+  "majors": [
+    {
+      "code": "MA27",
+      "tssCode": "MATH-BS-001",
+      "title": "Applied Mathematics B.S.",
+      "file": "majors/MA27-2026.json"
+    },
+    {
+      "code": "EN30",
+      "tssCode": "ECON-BS-003",
+      "title": "Business Economics B.S.",
+      "file": "majors/EN30-2026.json"
+    },
+    {
+      "code": "PC35",
+      "tssCode": "PSYC-BS-009",
+      "title": "Business Psychology B.S.",
+      "file": "majors/PC35-2026.json"
+    },
+    {
+      "code": "CG25",
+      "tssCode": "COGS-BA-001",
+      "title": "Cognitive Science B.A.",
+      "file": "majors/CG25-2026.json"
+    },
+    {
+      "code": "CG33",
+      "tssCode": "COGS-BS-009",
+      "title": "Cognitive Science B.S., Design and Interaction",
+      "file": "majors/CG33-2026.json"
+    },
+    {
+      "code": "CG35",
+      "tssCode": "COGS-BS-011",
+      "title": "Cognitive Science B.S., Machine Learning and Neural Computation",
+      "file": "majors/CG35-2026.json"
+    },
+    {
+      "code": "CM26",
+      "tssCode": "COMM-BA-003",
+      "title": "Communication B.A.",
+      "file": "majors/CM26-2026.json"
+    },
+    {
+      "code": "CS25",
+      "tssCode": "CSE-BS-001",
+      "title": "Computer Engineering B.S.",
+      "file": "majors/CS25-2026.json"
+    },
+    {
+      "code": "CS26",
+      "tssCode": "CSE-BS-002",
+      "title": "Computer Science B.S.",
+      "file": "majors/CS26-FA23.json"
+    },
+    {
+      "code": "DS25",
+      "tssCode": "DSC-BS-001",
+      "title": "Data Science B.S.",
+      "file": "majors/DS25-FA2024.json"
+    },
+    {
+      "code": "EN25",
+      "tssCode": "ECON-BA-001",
+      "title": "Economics B.A.",
+      "file": "majors/EN25-2026.json"
+    },
+    {
+      "code": "EN31",
+      "tssCode": "ECON-BS-004",
+      "title": "Economics B.S.",
+      "file": "majors/EN31-2026.json"
+    },
+    {
+      "code": "EC27",
+      "tssCode": "ECE-BS-002",
+      "title": "Electrical Engineering B.S.",
+      "file": "majors/EC27-2026.json"
+    },
+    {
+      "code": "BI31",
+      "tssCode": "BIOL-BS-004",
+      "title": "General Biology B.S.",
+      "file": "majors/BI31-2026.json"
+    },
+    {
+      "code": "BI35",
+      "tssCode": "BIOL-BS-008",
+      "title": "Human Biology B.S.",
+      "file": "majors/BI35-2026.json"
+    },
+    {
+      "code": "MA30",
+      "tssCode": "MATH-BS-003",
+      "title": "Mathematics–Computer Science B.S.",
+      "file": "majors/MA30-2026.json"
+    },
+    {
+      "code": "MC27",
+      "tssCode": "MAE-BS-003",
+      "title": "Mechanical Engineering B.S.",
+      "file": "majors/MC27-2026.json"
+    },
+    {
+      "code": "BI37",
+      "tssCode": "BIOL-BS-010",
+      "title": "Molecular and Cell Biology B.S.",
+      "file": "majors/BI37-2026.json"
+    },
+    {
+      "code": "BI38",
+      "tssCode": "BIOL-BS-011",
+      "title": "Neurobiology B.S.",
+      "file": "majors/BI38-2026.json"
+    },
+    {
+      "code": "PS25",
+      "tssCode": "POLI-BA-001",
+      "title": "Political Science B.A.",
+      "file": "majors/PS25-2026.json"
+    },
+    {
+      "code": "MA35",
+      "tssCode": "MATH-BS-007",
+      "title": "Probability and Statistics B.S.",
+      "file": "majors/MA35-2026.json"
+    },
+    {
+      "code": "PC25",
+      "tssCode": "PSYC-BA-001",
+      "title": "Psychology B.A.",
+      "file": "majors/PC25-2026.json"
+    },
+    {
+      "code": "SO25",
+      "tssCode": "SOC-BA-001",
+      "title": "Sociology B.A.",
+      "file": "majors/SO25-2026.json"
+    }
+  ],
+  "colleges": [
+    {
+      "name": "SIXTH",
+      "title": "Sixth College",
+      "file": "colleges/sixth.json"
+    }
+  ],
+  "transfer": [
+    {
+      "school": "UCSC",
+      "name": "UC Santa Cruz",
+      "file": "transfer/UCSC.json"
+    }
+  ]
+}

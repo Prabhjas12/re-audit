@@ -1,0 +1,7 @@
+node_modules/
+private/
+# Never commit real audits or histories
+*.pdf
+history*.txt
+re-audit-report*.html
+.DS_Store

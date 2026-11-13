@@ -1,0 +1,62 @@
+{
+  "id": "ucsd-university",
+  "kind": "university",
+  "title": "University Requirements",
+  "auditSection": "university",
+  "advisor": "your college's academic advising (vac.ucsd.edu)",
+  "sources": [
+    { "label": "UC San Diego General Catalog: Graduation Requirements", "url": "https://catalog.ucsd.edu/undergraduate/graduation-requirements/index.html" },
+    { "label": "Academic Senate DEI list of approved courses (updated December 2025)", "url": "https://senate.ucsd.edu/media/513521/dei-list-of-courses.pdf" }
+  ],
+  "notes": [
+    "University requirements can overlap with major and college requirements.",
+    "The DEI list was transcribed from the Senate's December 2025 list. Check the official list if your course isn't found.",
+    "Senior residence and the climate-change requirement for newer students aren't checked."
+  ],
+  "policy": { "exclusive": false, "minGrade": "D-", "letterGrade": false },
+  "groups": [
+    {
+      "title": "University",
+      "requirements": [
+        { "id": "elwr", "title": "Entry Level Writing (ELWR)", "audit": "Entry Level Writing", "auditOnly": true, "historyEvent": "elwr" },
+        { "id": "ahi", "title": "American History and Institutions (AHI)", "audit": "American History", "auditOnly": true, "historyEvent": "ahi" },
+        {
+          "id": "dei", "title": "Diversity, Equity and Inclusion (DEI)", "audit": "Diversity, Equity",
+          "count": 1,
+          "options": [
+            "AAS 10", "AAS 11", "AAS 170", "AAS 190", "AWP 10", "AWP 103", "ANAR 117", "ANBI 130", "ANBI 131",
+            "ANSC 113", "ANSC 122", "ANSC 131", "ANSC 145", "ANSC 162", "ANTH 4", "ANTH 10", "ANTH 21", "ANTH 23", "ANTH 43", "ANTH 105",
+            "ASTR 60", "BILD 60", "BILD 61", "CHEM 117", "CLAS 120", "COGS 2", "COMM 10", "COMM 30", "COMM 102C", "COMM 102D",
+            "COMM 111B", "COMM 131", "COMM 140", "COMM 140GS", "COMM 155", "CGS 2A", "CGS 105", "CGS 112", "CGS 119", "CGS 138",
+            "CSE 194", "DOC 1", "DOC 100D", "ECON 138", "ECON 185", "EDS 25", "EDS 111", "EDS 111GS", "EDS 112", "EDS 113", "EDS 116",
+            "EDS 117", "EDS 117GS", "EDS 125", "EDS 126", "EDS 130", "EDS 131", "EDS 133", "EDS 135", "EDS 136", "EDS 137", "EDS 139",
+            "EDS 145", "EDS 146", "ENVR 150", "ENVR 150GS",
+            "ETHN 1", "ETHN 2", "ETHN 3", "ETHN 1A", "ETHN 1B", "ETHN 1C", "ETHN 20", "ETHN 30", "ETHN 103A", "ETHN 109A", "ETHN 110",
+            "ETHN 112A", "ETHN 112B", "ETHN 112C", "ETHN 124", "ETHN 127", "ETHN 130", "ETHN 131", "ETHN 132", "ETHN 133", "ETHN 134",
+            "ETHN 136", "ETHN 140A", "ETHN 142", "ETHN 144M", "ETHN 153", "ETHN 154", "ETHN 161", "ETHN 163F", "ETHN 163G", "ETHN 163J",
+            "ETHN 166", "ETHN 168", "ETHN 171", "ETHN 178", "ETHN 179", "ETHN 180", "ETHN 182", "ETHN 190",
+            "HDS 171", "HDS 173", "HDS 175", "HDS 177", "HILD 2A", "HILD 2C", "HILD 7A", "HILD 7B", "HILD 7C", "HILD 7GS", "HILD 60",
+            "HITO 136", "HITO 155", "HITO 156", "HITO 156GS", "HIUS 103", "HIUS 108A", "HIUS 108B", "HIUS 112", "HIUS 113", "HIUS 114B",
+            "HIUS 125", "HIUS 125GS", "HIUS 128", "HIUS 136", "HIUS 157", "HIUS 158", "HIUS 159", "HIUS 167", "HIUS 180",
+            "LATI 10", "LATI 166", "LIGN 7", "LIGN 8", "LIGN 149GS", "LIGN 175", "LIGN 178",
+            "LTCS 119", "LTCS 130", "LTCS 138", "LTCS 165", "LTEN 27", "LTEN 28", "LTEN 29", "LTEN 31", "LTEN 169", "LTEN 171",
+            "LTEN 178", "LTEN 179", "LTEN 181", "LTEN 185", "LTEN 186", "MGT 18", "MGT 18GS", "MUS 8", "MUS 8GS", "MUS 17", "MUS 19",
+            "MUS 126", "MUS 127", "MUS 150", "PHIL 35", "PHIL 155", "PHIL 156", "PHIL 165", "PHIL 170",
+            "POLI 13", "POLI 13D", "POLI 100H", "POLI 100I", "POLI 100O", "POLI 100Q", "POLI 105A", "POLI 108", "POLI 150A",
+            "PSYC 127", "PSYC 131", "PH 157", "RELI 148", "RELI 149", "RELI 155", "SIO 114",
+            "SOCI 2", "SOCI 111", "SOCI 117", "SOCI 125", "SOCI 125M", "SOCI 126", "SOCI 127", "SOCI 133E", "SOCI 138", "SOCI 138GS",
+            "SOCI 139", "SOCI 139A", "SOCI 140J", "SOCI 144P", "SOCI 151", "SOCI 153", "SOCI 173", "SOCI 189GS", "SOCI 190GS",
+            "TDGE 127", "TDGE 131", "TDHT 103", "TDHT 107", "TDHT 109", "TDHT 110", "TDHT 111", "TDHT 120", "TDHT 122",
+            "TMC 15", "USP 1", "USP 3", "USP 129", "USP 162", "USP 184", "VIS 6", "VIS 102", "VIS 152D", "VIS 157D"
+          ],
+          "suggest": ["ANTH 21", "ETHN 1", "USP 3", "LTEN 29", "SOCI 2"]
+        }
+      ]
+    }
+  ],
+  "checks": [
+    { "id": "units", "type": "totalUnits", "title": "180 total units", "min": 180 },
+    { "id": "ud", "type": "upperDivUnits", "title": "60 upper-division units", "min": 60, "auditBlock": "Minimum Upper Division Units" },
+    { "id": "pnp", "type": "pnpMax", "title": "No more than 25% of UC San Diego units taken Pass/No Pass", "maxShare": 0.25 }
+  ]
+}

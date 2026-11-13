@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Re-Audit: an unofficial second look at your UC San Diego degree audit</title>
+  <meta name="description" content="Checks your TSS degree audit and academic history in your browser, places every class, and drafts your advising messages. Unofficial.">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://static.cloudflareinsights.com; worker-src 'self' blob:; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230e6e66'/%3E%3Cpath d='M9 16.5l4.5 4.5L23 11.5' stroke='white' stroke-width='3.2' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="top">
+    <div class="wrap top-inner">
+      <div class="brand">Re-Audit <span class="unofficial">unofficial</span></div>
+      <div class="privacy-pill" title="Your audit and history are read in your browser and never uploaded. Visits are counted anonymously, without cookies.">🔒 Runs entirely in your browser</div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="steps" aria-label="Inputs">
+      <div class="step">
+        <div class="step-n">1</div>
+        <h2>Your audit PDF</h2>
+        <p class="how">TSS → Degree Audit → <b>Open All Sections</b> → Print → <b>Save as PDF</b></p>
+        <label class="drop" id="drop">
+          <input type="file" id="auditFile" accept="application/pdf,.pdf" hidden>
+          <span class="drop-main" id="dropLabel">Drop the PDF here or <u>choose a file</u></span>
+          <span class="drop-sub" id="dropSub">Stays on your computer</span>
+        </label>
+      </div>
+      <div class="step">
+        <div class="step-n">2</div>
+        <h2>Your academic history</h2>
+        <p class="how">TSS → <b>My Academic History</b> → select all, copy, and paste here</p>
+        <textarea id="history" spellcheck="false" placeholder="Paste My Academic History here&#10;(or one class per line, like FA24 DSC 10 4 B+)"></textarea>
+        <div class="history-status muted" id="historyStatus"></div>
+      </div>
+      <div class="step step-go">
+        <div class="step-n">3</div>
+        <h2>Check it</h2>
+        <details class="settings" id="settings">
+          <summary>Settings <span class="muted" id="detected">(detected automatically)</span></summary>
+          <label>Major <select id="optMajor"><option value="">Detect from audit</option></select></label>
+          <label>College <select id="optCollege"><option value="">Detect from audit</option></select></label>
+          <label>Admitted as
+            <select id="optVariant">
+              <option value="">Detect from audit</option>
+              <option value="first-year">First-year</option>
+              <option value="transfer-general">Transfer (no IGETC or reciprocity)</option>
+              <option value="transfer-certified">Transfer with full IGETC or UC reciprocity</option>
+            </select>
+          </label>
+          <label>Transferred from <select id="optSchool"><option value="">Detect from history</option><option value="__none">Nowhere / not listed</option></select></label>
+        </details>
+        <button class="primary" id="run" type="button">Check my audit</button>
+        <button class="link" id="sample" type="button">Try it with sample data</button>
+      </div>
+    </section>
+
+    <div class="error" id="error" role="alert" hidden></div>
+
+    <div class="result-actions" id="actions" hidden>
+      <button type="button" id="print">Print or save as PDF</button>
+      <button type="button" id="reset" class="link">Start over</button>
+    </div>
+    <section id="results" aria-live="polite"></section>
+  </main>
+
+  <footer class="foot wrap">
+    <p>Unofficial student project, not affiliated with UC San Diego. Confirm anything important with your advisors.</p>
+  </footer>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

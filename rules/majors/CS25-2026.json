@@ -1,0 +1,206 @@
+{
+  "id": "CS25",
+  "kind": "major",
+  "title": "Computer Engineering B.S. (CS25)",
+  "catalogYears": [
+    "2026-27"
+  ],
+  "auditSection": "major",
+  "advisor": "CSE Undergraduate Advising (vac.ucsd.edu)",
+  "sources": [
+    {
+      "label": "UC San Diego General Catalog: Computer Science and Engineering (Computer Engineering)",
+      "url": "https://catalog.ucsd.edu/curric/CSE-ug.html"
+    }
+  ],
+  "notes": [
+    "From the 2026-27 catalog. Computer Engineering is run jointly by CSE and ECE.",
+    "At most 8 units of P/NP electives and at most 8 units from outside CSE/ECE may count. Open electives (up to 8 units of any CSE/ECE course) aren't checked separately."
+  ],
+  "policy": {
+    "exclusive": true,
+    "minGrade": "C-",
+    "letterGrade": true
+  },
+  "groups": [
+    {
+      "title": "Lower Division",
+      "requirements": [
+        {
+          "id": "cse-lower",
+          "title": "Lower-division CSE",
+          "slots": [
+            [
+              "CSE 8B",
+              "CSE 11"
+            ],
+            [
+              "CSE 12"
+            ],
+            [
+              "CSE 29",
+              "ECE 15"
+            ],
+            [
+              "CSE 30",
+              "ECE 30"
+            ]
+          ]
+        },
+        {
+          "id": "math",
+          "title": "Mathematics",
+          "slots": [
+            [
+              "MATH 20A"
+            ],
+            [
+              "MATH 20B"
+            ],
+            [
+              "MATH 20C",
+              "MATH 31BH"
+            ],
+            [
+              "MATH 20D"
+            ],
+            [
+              "MATH 18",
+              "MATH 31AH"
+            ]
+          ]
+        },
+        {
+          "id": "physics",
+          "title": "Physics",
+          "oneOf": [
+            {
+              "label": "PHYS 2A-C",
+              "slots": [
+                [
+                  "PHYS 2A"
+                ],
+                [
+                  "PHYS 2B"
+                ],
+                [
+                  "PHYS 2C"
+                ]
+              ]
+            },
+            {
+              "label": "PHYS 4A-C",
+              "slots": [
+                [
+                  "PHYS 4A"
+                ],
+                [
+                  "PHYS 4B"
+                ],
+                [
+                  "PHYS 4C"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "stats",
+          "title": "Probability and statistics",
+          "slots": [
+            [
+              "MATH 11",
+              "ECE 109"
+            ]
+          ]
+        },
+        {
+          "id": "ece-lower",
+          "title": "Electrical engineering",
+          "slots": [
+            [
+              "ECE 35"
+            ],
+            [
+              "ECE 45"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Upper Division",
+      "requirements": [
+        {
+          "id": "cse-core",
+          "title": "CSE core",
+          "slots": [
+            [
+              "CSE 140"
+            ],
+            [
+              "CSE 141",
+              "CSE 142"
+            ]
+          ]
+        },
+        {
+          "id": "ece-core",
+          "title": "ECE core",
+          "slots": [
+            [
+              "ECE 101"
+            ],
+            [
+              "ECE 108"
+            ],
+            [
+              "ECE 111"
+            ]
+          ]
+        },
+        {
+          "id": "project",
+          "title": "Project course",
+          "count": 1,
+          "options": [
+            "CSE 118",
+            "CSE 145",
+            "CSE 147",
+            "CSE 148",
+            "CSE 170",
+            "CSE 176A",
+            "CSE 176E",
+            "ECE 115",
+            "ECE 140B",
+            "ECE 144",
+            "ECE 191",
+            "ECE 196"
+          ]
+        },
+        {
+          "id": "electives",
+          "title": "CSE/ECE electives (40 units)",
+          "units": 40,
+          "letterGrade": false,
+          "options": [
+            "CSE 100-299",
+            "ECE 100-299"
+          ],
+          "except": [
+            "CSE 195",
+            "ECE 195"
+          ]
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "gpa",
+      "type": "programGPA",
+      "title": "Major GPA of 2.0 or higher",
+      "min": 2.0
+    }
+  ]
+}

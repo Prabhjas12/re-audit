@@ -1,0 +1,58 @@
+{
+  "school": "UCSC",
+  "name": "UC Santa Cruz",
+  "sources": [
+    { "label": "UC Santa Cruz General Catalog (course descriptions)", "url": "https://catalog.ucsc.edu/" }
+  ],
+  "notes": [
+    "These are UC Santa Cruz courses that appear under 'Elective Courses' on the audit but likely fit a UC San Diego requirement once advising reviews them.",
+    "'likely' means the course matches the requirement's own rule, so advising should only need to apply it.",
+    "'petition' means it's a reasonable petition based on the course description, not a guarantee.",
+    "Codes are as they appear on the TSS audit. Some UCSC subjects were renamed (LALS shows as LAST, ART as ARTF)."
+  ],
+  "courses": [
+    {
+      "code": "WRIT 2", "aliases": ["WRIT 002"], "title": "Rhetoric and Inquiry",
+      "counts": [{ "program": "sixth-ge", "requirement": "tcomp", "confidence": "likely" }],
+      "why": "UCSC's second composition course. The audit's composition rule looks for 'composition' in course titles, so advising may need to apply this one by hand."
+    },
+    {
+      "code": "WRIT 1", "title": "Introduction to Composition",
+      "counts": [{ "program": "sixth-ge", "requirement": "tcomp", "confidence": "likely" }],
+      "why": "UCSC's first composition course."
+    },
+    {
+      "code": "CSE 20", "title": "Beginning Programming in Python",
+      "counts": [{ "program": "sixth-ge", "requirement": "itf", "confidence": "likely" }],
+      "why": "An introductory programming course, which is what Information Technology Fluency asks for."
+    },
+    {
+      "code": "LAST 1", "aliases": ["LALS 1"], "title": "Introduction to Latin American and Latino Studies",
+      "counts": [
+        { "program": "sixth-ge", "requirement": "sa", "confidence": "petition" },
+        { "program": "sixth-ge", "requirement": "nahr", "confidence": "petition" }
+      ],
+      "why": "An interdisciplinary social-science and history survey; could support Social Analysis or Narrative, Aesthetic and Historical Reasoning."
+    },
+    {
+      "code": "LAST 55", "aliases": ["LALS 55"], "title": "AIDS Across the Americas",
+      "counts": [{ "program": "sixth-ge", "requirement": "nahr", "confidence": "petition" }],
+      "why": "A cultural and historical study course, closest to Narrative, Aesthetic and Historical Reasoning."
+    },
+    {
+      "code": "LAST 75", "aliases": ["LALS 75"], "title": "Art and Social Change in Latin America",
+      "counts": [{ "program": "sixth-ge", "requirement": "nahr", "confidence": "petition" }],
+      "why": "An art-history and cultural-analysis course, closest to Narrative, Aesthetic and Historical Reasoning."
+    },
+    {
+      "code": "ARTF 80T", "aliases": ["ART 80T"], "title": "Digital Tools for Contemporary Art Practice",
+      "counts": [{ "program": "sixth-ge", "requirement": "art", "confidence": "petition" }],
+      "why": "A studio art course where students make work, which is what Art Making asks for."
+    },
+    {
+      "code": "ECE 30", "title": "Engineering Principles of Electronics",
+      "counts": [{ "program": "sixth-ge", "requirement": "amsm", "confidence": "petition" }],
+      "why": "Physics-based electronics with lab content; a possible petition for Analytic Methodologies/Scientific Method."
+    }
+  ]
+}

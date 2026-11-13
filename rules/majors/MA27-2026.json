@@ -1,0 +1,361 @@
+{
+  "id": "MA27",
+  "kind": "major",
+  "title": "Applied Mathematics B.S. (MA27)",
+  "catalogYears": [
+    "2026-27"
+  ],
+  "auditSection": "major",
+  "advisor": "Mathematics Undergraduate Advising (vac.ucsd.edu)",
+  "sources": [
+    {
+      "label": "UC San Diego General Catalog: Mathematics",
+      "url": "https://catalog.ucsd.edu/curric/MATH-ug.html"
+    }
+  ],
+  "notes": [
+    "From the 2026-27 catalog.",
+    "Students who finish MATH 31AH-BH-CH may replace MATH 109 with a four-unit upper-division math elective; this tool doesn't apply that substitution automatically.",
+    "MATH 195-199 and ECON 120A-C don't count. Outside electives need a faculty petition."
+  ],
+  "policy": {
+    "exclusive": true,
+    "minGrade": "C-",
+    "letterGrade": true
+  },
+  "groups": [
+    {
+      "title": "Lower Division",
+      "requirements": [
+        {
+          "id": "calc",
+          "title": "Linear algebra and calculus",
+          "oneOf": [
+            {
+              "label": "MATH 18 and 20A-E",
+              "slots": [
+                [
+                  "MATH 18"
+                ],
+                [
+                  "MATH 20A"
+                ],
+                [
+                  "MATH 20B"
+                ],
+                [
+                  "MATH 20C"
+                ],
+                [
+                  "MATH 20D"
+                ],
+                [
+                  "MATH 20E"
+                ]
+              ]
+            },
+            {
+              "label": "Honors MATH 31AH-CH and 20D",
+              "slots": [
+                [
+                  "MATH 31AH"
+                ],
+                [
+                  "MATH 31BH"
+                ],
+                [
+                  "MATH 31CH"
+                ],
+                [
+                  "MATH 20D"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "programming",
+          "title": "Programming",
+          "count": 1,
+          "options": [
+            "CSE 11",
+            "ECE 15",
+            "DSC 20"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Upper Division",
+      "requirements": [
+        {
+          "id": "reasoning",
+          "title": "Mathematical Reasoning (MATH 109)",
+          "slots": [
+            [
+              "MATH 109"
+            ]
+          ]
+        },
+        {
+          "id": "linear",
+          "title": "Linear algebra",
+          "slots": [
+            [
+              "MATH 102",
+              "MATH 170A"
+            ]
+          ]
+        },
+        {
+          "id": "analysis",
+          "title": "Analysis",
+          "oneOf": [
+            {
+              "label": "MATH 140A-B",
+              "slots": [
+                [
+                  "MATH 140A"
+                ],
+                [
+                  "MATH 140B"
+                ]
+              ]
+            },
+            {
+              "label": "MATH 142A-B",
+              "slots": [
+                [
+                  "MATH 142A"
+                ],
+                [
+                  "MATH 142B"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prob",
+          "title": "Probability or statistical methods",
+          "slots": [
+            [
+              "MATH 180A",
+              "MATH 183"
+            ]
+          ]
+        },
+        {
+          "id": "seq1",
+          "title": "Applied sequence 1",
+          "oneOf": [
+            {
+              "label": "Combinatorics",
+              "slots": [
+                [
+                  "MATH 154",
+                  "MATH 158"
+                ],
+                [
+                  "MATH 184",
+                  "MATH 188"
+                ]
+              ]
+            },
+            {
+              "label": "Differential equations",
+              "slots": [
+                [
+                  "MATH 110"
+                ],
+                [
+                  "MATH 130"
+                ]
+              ]
+            },
+            {
+              "label": "Numerical methods",
+              "slots": [
+                [
+                  "MATH 170B",
+                  "MATH 170C",
+                  "MATH 175",
+                  "MATH 179"
+                ],
+                [
+                  "MATH 170B",
+                  "MATH 170C",
+                  "MATH 175",
+                  "MATH 179"
+                ]
+              ]
+            },
+            {
+              "label": "Optimization",
+              "slots": [
+                [
+                  "MATH 171A"
+                ],
+                [
+                  "MATH 171B"
+                ]
+              ]
+            },
+            {
+              "label": "Probability",
+              "slots": [
+                [
+                  "MATH 180B"
+                ],
+                [
+                  "MATH 180C"
+                ]
+              ]
+            },
+            {
+              "label": "Statistics (MATH 181A-B)",
+              "slots": [
+                [
+                  "MATH 181A"
+                ],
+                [
+                  "MATH 181B"
+                ]
+              ]
+            },
+            {
+              "label": "Statistics (two of 181D, 181F, 185, 189)",
+              "slots": [
+                [
+                  "MATH 181D",
+                  "MATH 181F",
+                  "MATH 185",
+                  "MATH 189"
+                ],
+                [
+                  "MATH 181D",
+                  "MATH 181F",
+                  "MATH 185",
+                  "MATH 189"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "seq2",
+          "title": "Applied sequence 2",
+          "oneOf": [
+            {
+              "label": "Combinatorics",
+              "slots": [
+                [
+                  "MATH 154",
+                  "MATH 158"
+                ],
+                [
+                  "MATH 184",
+                  "MATH 188"
+                ]
+              ]
+            },
+            {
+              "label": "Differential equations",
+              "slots": [
+                [
+                  "MATH 110"
+                ],
+                [
+                  "MATH 130"
+                ]
+              ]
+            },
+            {
+              "label": "Numerical methods",
+              "slots": [
+                [
+                  "MATH 170B",
+                  "MATH 170C",
+                  "MATH 175",
+                  "MATH 179"
+                ],
+                [
+                  "MATH 170B",
+                  "MATH 170C",
+                  "MATH 175",
+                  "MATH 179"
+                ]
+              ]
+            },
+            {
+              "label": "Optimization",
+              "slots": [
+                [
+                  "MATH 171A"
+                ],
+                [
+                  "MATH 171B"
+                ]
+              ]
+            },
+            {
+              "label": "Probability",
+              "slots": [
+                [
+                  "MATH 180B"
+                ],
+                [
+                  "MATH 180C"
+                ]
+              ]
+            },
+            {
+              "label": "Statistics (MATH 181A-B)",
+              "slots": [
+                [
+                  "MATH 181A"
+                ],
+                [
+                  "MATH 181B"
+                ]
+              ]
+            },
+            {
+              "label": "Statistics (two of 181D, 181F, 185, 189)",
+              "slots": [
+                [
+                  "MATH 181D",
+                  "MATH 181F",
+                  "MATH 185",
+                  "MATH 189"
+                ],
+                [
+                  "MATH 181D",
+                  "MATH 181F",
+                  "MATH 185",
+                  "MATH 189"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "electives",
+          "title": "Upper-division math electives (to reach 13 courses)",
+          "count": 4,
+          "options": [
+            "MATH 100-194"
+          ]
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "gpa",
+      "type": "programGPA",
+      "title": "Major GPA of 2.0 or higher",
+      "min": 2.0
+    }
+  ]
+}

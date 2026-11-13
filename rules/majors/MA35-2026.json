@@ -1,0 +1,254 @@
+{
+  "id": "MA35",
+  "kind": "major",
+  "title": "Probability and Statistics B.S. (MA35)",
+  "catalogYears": [
+    "2026-27"
+  ],
+  "auditSection": "major",
+  "advisor": "Mathematics Undergraduate Advising (vac.ucsd.edu)",
+  "sources": [
+    {
+      "label": "UC San Diego General Catalog: Mathematics",
+      "url": "https://catalog.ucsd.edu/curric/MATH-ug.html"
+    }
+  ],
+  "notes": [
+    "From the 2026-27 catalog.",
+    "Students who finish MATH 31AH-BH-CH may replace MATH 109 with a four-unit upper-division math elective; this tool doesn't apply that substitution automatically.",
+    "MATH 195-199 and ECON 120A-C don't count. Outside electives need a faculty petition."
+  ],
+  "policy": {
+    "exclusive": true,
+    "minGrade": "C-",
+    "letterGrade": true
+  },
+  "groups": [
+    {
+      "title": "Lower Division",
+      "requirements": [
+        {
+          "id": "calc",
+          "title": "Linear algebra and calculus",
+          "oneOf": [
+            {
+              "label": "MATH 18 and 20A-E",
+              "slots": [
+                [
+                  "MATH 18"
+                ],
+                [
+                  "MATH 20A"
+                ],
+                [
+                  "MATH 20B"
+                ],
+                [
+                  "MATH 20C"
+                ],
+                [
+                  "MATH 20D"
+                ],
+                [
+                  "MATH 20E"
+                ]
+              ]
+            },
+            {
+              "label": "Honors MATH 31AH-CH and 20D",
+              "slots": [
+                [
+                  "MATH 31AH"
+                ],
+                [
+                  "MATH 31BH"
+                ],
+                [
+                  "MATH 31CH"
+                ],
+                [
+                  "MATH 20D"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "programming",
+          "title": "Programming",
+          "count": 1,
+          "options": [
+            "CSE 11",
+            "ECE 15",
+            "DSC 20"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Upper Division",
+      "requirements": [
+        {
+          "id": "reasoning",
+          "title": "Mathematical Reasoning (MATH 109)",
+          "slots": [
+            [
+              "MATH 109"
+            ]
+          ]
+        },
+        {
+          "id": "linear",
+          "title": "Linear algebra (MATH 102)",
+          "slots": [
+            [
+              "MATH 102"
+            ]
+          ]
+        },
+        {
+          "id": "analysis",
+          "title": "Analysis",
+          "oneOf": [
+            {
+              "label": "MATH 140A-B",
+              "slots": [
+                [
+                  "MATH 140A"
+                ],
+                [
+                  "MATH 140B"
+                ]
+              ]
+            },
+            {
+              "label": "MATH 142A-B",
+              "slots": [
+                [
+                  "MATH 142A"
+                ],
+                [
+                  "MATH 142B"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "prob",
+          "title": "Probability",
+          "slots": [
+            [
+              "MATH 180A"
+            ],
+            [
+              "MATH 180B"
+            ],
+            [
+              "MATH 180C"
+            ]
+          ]
+        },
+        {
+          "id": "stats",
+          "title": "Mathematical statistics",
+          "slots": [
+            [
+              "MATH 181A"
+            ],
+            [
+              "MATH 181B"
+            ]
+          ]
+        },
+        {
+          "id": "applied-stats",
+          "title": "Applied or computational statistics",
+          "slots": [
+            [
+              "MATH 185",
+              "MATH 189"
+            ]
+          ]
+        },
+        {
+          "id": "one-more",
+          "title": "One more statistics course",
+          "slots": [
+            [
+              "MATH 181C",
+              "MATH 181D",
+              "MATH 181E",
+              "MATH 181F",
+              "MATH 182",
+              "MATH 185",
+              "MATH 189",
+              "MATH 194"
+            ]
+          ]
+        },
+        {
+          "id": "electives",
+          "title": "Electives (to reach 14 courses)",
+          "count": 3,
+          "options": [
+            "MATH 100A",
+            "MATH 100B",
+            "MATH 100C",
+            "MATH 103A",
+            "MATH 103B",
+            "MATH 110",
+            "MATH 111A",
+            "MATH 111B",
+            "MATH 112A",
+            "MATH 112B",
+            "MATH 114",
+            "MATH 120A",
+            "MATH 120B",
+            "MATH 130",
+            "MATH 140C",
+            "MATH 144",
+            "MATH 146",
+            "MATH 148",
+            "MATH 152",
+            "MATH 154",
+            "MATH 155A",
+            "MATH 158",
+            "MATH 170A",
+            "MATH 170B",
+            "MATH 170C",
+            "MATH 171A",
+            "MATH 171B",
+            "MATH 173A",
+            "MATH 173B",
+            "MATH 174",
+            "MATH 175",
+            "MATH 179",
+            "MATH 181C",
+            "MATH 181D",
+            "MATH 181E",
+            "MATH 181F",
+            "MATH 182",
+            "MATH 184",
+            "MATH 185",
+            "MATH 187A",
+            "MATH 188",
+            "MATH 189",
+            "MATH 190A",
+            "MATH 193A",
+            "MATH 193B",
+            "MATH 194"
+          ]
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "gpa",
+      "type": "programGPA",
+      "title": "Major GPA of 2.0 or higher",
+      "min": 2.0
+    }
+  ]
+}

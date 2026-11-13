@@ -1,0 +1,137 @@
+{
+  "id": "sixth-ge",
+  "kind": "college",
+  "title": "Sixth College General Education",
+  "match": { "collegeName": "SIXTH" },
+  "auditSection": "college",
+  "advisor": "Sixth College Academic Advising (vac.ucsd.edu)",
+  "sources": [
+    { "label": "Sixth College GE Requirements, 2026-27 (PDF)", "url": "https://sixth.ucsd.edu/academics/requirements/GERequirements.pdf" },
+    { "label": "Sixth College: General Education Requirements for Transfer Students", "url": "https://sixth.ucsd.edu/academics/requirements/transfer-requirements.html" }
+  ],
+  "notes": [
+    "Course lists are from Sixth's 2026-27 GE list. Lists change by year, so a course you took in an earlier year may have been approved then even if it's missing here.",
+    "One course counts toward one Sixth GE area. Sixth GEs can overlap with the major and with university requirements such as DEI.",
+    "Transfer students without IGETC or reciprocity get course-by-course review; some transfer courses need a petition."
+  ],
+  "policy": { "exclusive": true, "minGrade": "D-", "letterGrade": false },
+  "variants": {
+    "first-year": {
+      "title": "First-year admits",
+      "match": "FIRST|FRESH",
+      "requirements": ["cat1", "cat2", "cat3", "itf", "sa", "nahr", "amsm", "sr", "ed", "art", "elr", "cat125"]
+    },
+    "transfer-general": {
+      "title": "Transfer, no IGETC or reciprocity",
+      "match": "GENERAL TRANSFER",
+      "requirements": ["tcomp", "itf", "sa", "nahr", "amsm", "sr", "ed", "art", "elr", "cat125"]
+    },
+    "transfer-certified": {
+      "title": "Transfer with full IGETC/Cal-GETC or UC reciprocity",
+      "match": "IGETC|RECIPROCITY",
+      "requirements": ["elr", "cat125"]
+    }
+  },
+  "defaultVariant": "transfer-general",
+  "groups": [
+    {
+      "title": "Writing",
+      "requirements": [
+        { "id": "cat1", "title": "CAT 1", "audit": "CAT 1\\b", "slots": [["CAT 1"]] },
+        { "id": "cat2", "title": "CAT 2", "audit": "CAT 2\\b", "slots": [["CAT 2"]] },
+        { "id": "cat3", "title": "CAT 3", "audit": "CAT 3\\b", "slots": [["CAT 3"]] },
+        {
+          "id": "tcomp", "title": "Transfer Composition (2 courses)", "audit": "^Transfer Composition",
+          "count": 2, "options": [],
+          "transferTitleMatch": "comp|cmp",
+          "transferTitleSubjects": ["ENGL", "ENG", "WRIT", "WRT", "RHET", "COMP"],
+          "help": "Two college composition courses taken before transferring. Talk to Sixth advising about options at UC San Diego."
+        }
+      ]
+    },
+    {
+      "title": "Breadth",
+      "requirements": [
+        {
+          "id": "itf", "title": "Information Technology Fluency", "audit": "^Information Technology",
+          "count": 1,
+          "options": ["BILD 62", "COGS 3", "COGS 8", "COGS 18", "CSS 1", "CSE 3", "CSE 6R", "CSE 8A", "CSE 11", "DSC 10", "ECE 15", "MAE 8", "NANO 15", "CENG 15", "SE 9"]
+        },
+        {
+          "id": "sa", "title": "Social Analysis (2 courses, 2 departments)", "audit": "^Social Analysis",
+          "count": 2, "distinctSubjects": true,
+          "options": [
+            "ANTH 1-4", "ANTH 21", "ANTH 23", "COGS 1", "COGS 11", "COGS 15", "COMM 10", "COMM 20", "COMM 30",
+            "CGS 2A", "CGS 2B", "ECON 1-3", "EDS 25", "EDS 117", "ETHN 1-3", "ETHN 20", "INTL 101", "INTL 102",
+            "LATI 10", "LATI 50", "LIGN 7", "LIGN 8", "MGT 16", "MGT 18", "MGT 166", "POLI 10-13",
+            "PSYC 1-7", "SOCI 1", "SOCI 2", "SOCI 10", "SOCI 20", "SOCI 30", "SOCI 40", "SOCI 50", "SOCI 70", "USP 2", "USP 3"
+          ],
+          "suggest": ["ANTH 21", "SOCI 1", "PSYC 1", "COMM 10", "ETHN 1"]
+        },
+        {
+          "id": "nahr", "title": "Narrative, Aesthetic and Historical Reasoning (8 units)", "audit": "^Narrative",
+          "units": 8,
+          "options": [
+            "AAS 10", "COMM 80", "CHIN 10-20", "GSS 21-27", "HILD 2A-2C", "HILD 7A-7C", "HILD 10-12", "HILD 14", "HILD 30",
+            "JAPN 10-20", "JWSP 1-3", "LT* 1-50", "MUS 4", "MUS 6-19", "PHIL 1", "PHIL 13-15", "PHIL 26", "PHIL 31-33", "PHIL 35",
+            "RELI 1", "RELI 2", "TDGE 1", "TDGE 10", "TDGE 11", "TDGE 25", "TDGE 124-127", "TDHD 20", "TDHD 21",
+            "TDHT 10", "TDHT 21-23", "VIS 20-22", "VIS 84", "VIS 85A", "VIS 159"
+          ],
+          "except": ["LTWR *"],
+          "suggest": ["HILD 2A", "MUS 4", "PHIL 1", "LTEN 29", "VIS 20"]
+        },
+        {
+          "id": "amsm", "title": "Analytic Methodologies/Scientific Method (8 units)", "audit": "^Analytic Methodologies",
+          "units": 8,
+          "options": [
+            "ANTH 5", "ASTR 1-4", "ASTR 10", "ASTR 18", "BILD 1-3", "BILD 7-38", "COGS 17", "COGS 107A",
+            "CHEM 4", "CHEM 6A-6C", "CHEM 6AH", "CHEM 6BH", "CHEM 6CH", "CHEM 11",
+            "PHYS 1A-1C", "PHYS 1AL", "PHYS 1BL", "PHYS 1CL", "PHYS 2A-2C", "PHYS 4A-4E", "PHYS 8-12",
+            "SIO 1-50", "ENVR 30", "ESYS 10"
+          ],
+          "suggest": ["BILD 1", "COGS 17", "SIO 10", "ASTR 1", "PHYS 12"]
+        },
+        {
+          "id": "sr", "title": "Structured Reasoning", "audit": "^Structured Reasoning",
+          "count": 1,
+          "options": ["LIGN 17", "MATH 3C", "MATH 4C", "MATH 10A-10C", "MATH 20A-20C", "PHIL 10", "PHIL 12"]
+        },
+        {
+          "id": "ed", "title": "Exploring Data", "audit": "^Exploring Data",
+          "count": 1,
+          "options": [
+            "BENG 100", "CENG 100", "CENG 114", "COGS 14B", "CSE 103", "ECON 5", "ECON 120A", "ECE 109", "HDS 60", "MGT 3",
+            "MATH 11", "MATH 180A", "MATH 183", "MATH 186", "MAE 108", "NANO 114", "POLI 5", "POLI 5D", "POLI 30", "POLI 30D",
+            "PSYC 60", "SIO 187", "SOCI 60", "SE 125"
+          ]
+        },
+        {
+          "id": "art", "title": "Art Making (8 units)", "audit": "^Art Making",
+          "units": 8,
+          "options": [
+            "COMM 101", "DSGN 1", "DSGN 100", "LTWR 8A-8C", "MUS 1A-1C", "MUS 2A-2C", "MUS 2AK", "MUS 2BK", "MUS 2CK",
+            "MUS 5", "MUS 80", "MUS 95C-95W", "TDAC 1", "TDAC 101", "TDDE 1", "TDDR 101", "TDDM 1", "TDDM 5", "TDDM 100", "TDDM 101",
+            "TDMV 1-3", "TDMV 11", "TDMV 38", "TDMV 43", "TDMV 110", "TDMV 120", "TDMV 122", "TDMV 123", "TDMV 130", "TDMV 148", "TDMV 149",
+            "TDPW 1", "VIS 1-3", "VIS 9", "VIS 41", "VIS 60", "VIS 70N", "VIS 80"
+          ],
+          "suggest": ["DSGN 1", "VIS 1", "MUS 5", "VIS 80", "TDDM 1"]
+        }
+      ]
+    },
+    {
+      "title": "Upper Division",
+      "requirements": [
+        {
+          "id": "elr", "title": "Experiential Learning (4 upper-division units)", "audit": "^Experiential Learning",
+          "manual": true,
+          "help": "Approved courses, internships, research or study abroad. Some options need a proposal the quarter before. See sixth.ucsd.edu/elr. A major course can count if Sixth approves it."
+        },
+        {
+          "id": "cat125", "title": "CAT 125: Public Rhetoric and Practical Communication", "audit": "^CAT 125",
+          "count": 1, "options": ["CAT 125", "CAT 125R"],
+          "help": "P/NP is allowed (P needs C- level work)."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,486 @@
+{
+  "id": "EC27",
+  "kind": "major",
+  "title": "Electrical Engineering B.S. (EC27)",
+  "catalogYears": [
+    "2026-27"
+  ],
+  "auditSection": "major",
+  "advisor": "ECE Undergraduate Advising (vac.ucsd.edu)",
+  "sources": [
+    {
+      "label": "UC San Diego General Catalog: Electrical and Computer Engineering",
+      "url": "https://catalog.ucsd.edu/curric/ECE-ug.html"
+    }
+  ],
+  "notes": [
+    "From the 2026-27 catalog. Re-Audit picks the depth (breadth plus depth courses) that best matches your classes.",
+    "Some depths also need ECE 17 or 18 and PHYS 2D (or 4D-E). Technical and professional electives depend on your depth and an ECE-office list, so they're left to the official audit.",
+    "In Computer System Design, ECE 111 must be used as a depth course, technical elective or design course."
+  ],
+  "policy": {
+    "exclusive": true,
+    "minGrade": "C-",
+    "letterGrade": true
+  },
+  "groups": [
+    {
+      "title": "Lower Division",
+      "requirements": [
+        {
+          "id": "ece-lower",
+          "title": "Electrical engineering",
+          "slots": [
+            [
+              "ECE 5"
+            ],
+            [
+              "ECE 25"
+            ],
+            [
+              "ECE 30"
+            ],
+            [
+              "ECE 35"
+            ],
+            [
+              "ECE 45"
+            ],
+            [
+              "ECE 65"
+            ]
+          ]
+        },
+        {
+          "id": "programming",
+          "title": "Programming",
+          "slots": [
+            [
+              "ECE 15"
+            ]
+          ]
+        },
+        {
+          "id": "math",
+          "title": "Mathematics",
+          "slots": [
+            [
+              "MATH 18"
+            ],
+            [
+              "MATH 20A"
+            ],
+            [
+              "MATH 20B"
+            ],
+            [
+              "MATH 20C"
+            ],
+            [
+              "MATH 20D"
+            ],
+            [
+              "MATH 20E"
+            ]
+          ]
+        },
+        {
+          "id": "physics",
+          "title": "Physics",
+          "oneOf": [
+            {
+              "label": "PHYS 2A-C",
+              "slots": [
+                [
+                  "PHYS 2A"
+                ],
+                [
+                  "PHYS 2B"
+                ],
+                [
+                  "PHYS 2C"
+                ]
+              ]
+            },
+            {
+              "label": "PHYS 4A-C",
+              "slots": [
+                [
+                  "PHYS 4A"
+                ],
+                [
+                  "PHYS 4B"
+                ],
+                [
+                  "PHYS 4C"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Upper Division",
+      "requirements": [
+        {
+          "id": "depth",
+          "title": "Breadth and depth courses",
+          "oneOf": [
+            {
+              "label": "Communication Systems",
+              "slots": [
+                [
+                  "ECE 100"
+                ],
+                [
+                  "ECE 101"
+                ],
+                [
+                  "ECE 102"
+                ],
+                [
+                  "ECE 107"
+                ],
+                [
+                  "ECE 109"
+                ],
+                [
+                  "ECE 153"
+                ],
+                [
+                  "ECE 155"
+                ],
+                [
+                  "ECE 157A"
+                ],
+                [
+                  "ECE 158A"
+                ],
+                [
+                  "ECE 159"
+                ],
+                [
+                  "ECE 161A"
+                ]
+              ]
+            },
+            {
+              "label": "Computer System Design",
+              "slots": [
+                [
+                  "ECE 100"
+                ],
+                [
+                  "ECE 101"
+                ],
+                [
+                  "ECE 109"
+                ],
+                [
+                  "ECE 116"
+                ],
+                [
+                  "ECE 102",
+                  "ECE 103",
+                  "ECE 111",
+                  "ECE 140A",
+                  "ECE 140B",
+                  "ECE 141A",
+                  "ECE 141B",
+                  "ECE 143",
+                  "ECE 158A",
+                  "ECE 158B",
+                  "ECE 165"
+                ],
+                [
+                  "ECE 102",
+                  "ECE 103",
+                  "ECE 111",
+                  "ECE 140A",
+                  "ECE 140B",
+                  "ECE 141A",
+                  "ECE 141B",
+                  "ECE 143",
+                  "ECE 158A",
+                  "ECE 158B",
+                  "ECE 165"
+                ],
+                [
+                  "ECE 102",
+                  "ECE 103",
+                  "ECE 111",
+                  "ECE 140A",
+                  "ECE 140B",
+                  "ECE 141A",
+                  "ECE 141B",
+                  "ECE 143",
+                  "ECE 158A",
+                  "ECE 158B",
+                  "ECE 165"
+                ],
+                [
+                  "ECE 102",
+                  "ECE 103",
+                  "ECE 111",
+                  "ECE 140A",
+                  "ECE 140B",
+                  "ECE 141A",
+                  "ECE 141B",
+                  "ECE 143",
+                  "ECE 158A",
+                  "ECE 158B",
+                  "ECE 165"
+                ],
+                [
+                  "ECE 102",
+                  "ECE 103",
+                  "ECE 111",
+                  "ECE 140A",
+                  "ECE 140B",
+                  "ECE 141A",
+                  "ECE 141B",
+                  "ECE 143",
+                  "ECE 158A",
+                  "ECE 158B",
+                  "ECE 165"
+                ]
+              ]
+            },
+            {
+              "label": "Electronic Circuits and Systems",
+              "slots": [
+                [
+                  "ECE 100"
+                ],
+                [
+                  "ECE 101"
+                ],
+                [
+                  "ECE 102"
+                ],
+                [
+                  "ECE 103"
+                ],
+                [
+                  "ECE 107"
+                ],
+                [
+                  "ECE 109"
+                ],
+                [
+                  "ECE 164"
+                ],
+                [
+                  "ECE 165"
+                ],
+                [
+                  "ECE 166"
+                ]
+              ]
+            },
+            {
+              "label": "Electronic Devices and Materials",
+              "slots": [
+                [
+                  "ECE 100"
+                ],
+                [
+                  "ECE 101"
+                ],
+                [
+                  "ECE 102"
+                ],
+                [
+                  "ECE 103"
+                ],
+                [
+                  "ECE 107"
+                ],
+                [
+                  "ECE 109"
+                ],
+                [
+                  "ECE 135A"
+                ],
+                [
+                  "ECE 135B"
+                ],
+                [
+                  "ECE 136L"
+                ],
+                [
+                  "ECE 183"
+                ]
+              ]
+            },
+            {
+              "label": "Machine Learning and Controls",
+              "slots": [
+                [
+                  "ECE 100"
+                ],
+                [
+                  "ECE 101"
+                ],
+                [
+                  "ECE 107"
+                ],
+                [
+                  "ECE 109"
+                ],
+                [
+                  "ECE 171A"
+                ],
+                [
+                  "ECE 174"
+                ],
+                [
+                  "ECE 175A"
+                ],
+                [
+                  "ECE 171B",
+                  "ECE 172A",
+                  "ECE 175B"
+                ]
+              ]
+            },
+            {
+              "label": "Photonics",
+              "slots": [
+                [
+                  "ECE 100"
+                ],
+                [
+                  "ECE 101"
+                ],
+                [
+                  "ECE 103"
+                ],
+                [
+                  "ECE 107"
+                ],
+                [
+                  "ECE 109"
+                ],
+                [
+                  "ECE 181"
+                ],
+                [
+                  "ECE 182"
+                ],
+                [
+                  "ECE 183"
+                ],
+                [
+                  "ECE 184",
+                  "ECE 185"
+                ]
+              ]
+            },
+            {
+              "label": "Power Engineering",
+              "slots": [
+                [
+                  "ECE 100"
+                ],
+                [
+                  "ECE 101"
+                ],
+                [
+                  "ECE 102"
+                ],
+                [
+                  "ECE 103"
+                ],
+                [
+                  "ECE 107"
+                ],
+                [
+                  "ECE 109"
+                ],
+                [
+                  "ECE 121A"
+                ],
+                [
+                  "ECE 121B"
+                ],
+                [
+                  "ECE 125A"
+                ],
+                [
+                  "ECE 128A"
+                ],
+                [
+                  "ECE 125B",
+                  "ECE 128B"
+                ]
+              ]
+            },
+            {
+              "label": "Signal and Image Processing",
+              "slots": [
+                [
+                  "ECE 100"
+                ],
+                [
+                  "ECE 101"
+                ],
+                [
+                  "ECE 107"
+                ],
+                [
+                  "ECE 109"
+                ],
+                [
+                  "ECE 153"
+                ],
+                [
+                  "ECE 161A"
+                ],
+                [
+                  "ECE 161B"
+                ],
+                [
+                  "ECE 161C"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "design",
+          "title": "Design course",
+          "count": 1,
+          "options": [
+            "ECE 111",
+            "ECE 115",
+            "ECE 140B",
+            "ECE 190",
+            "ECE 191"
+          ]
+        },
+        {
+          "id": "tech",
+          "title": "Technical electives",
+          "manual": true,
+          "help": "One to four upper-division plus two upper- or lower-division engineering, math or science courses, depending on your depth. Check your depth's list with ECE advising."
+        },
+        {
+          "id": "professional",
+          "title": "Professional electives (2)",
+          "manual": true,
+          "help": "Two upper-division courses from the ECE office's approved professional electives list."
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "gpa",
+      "type": "programGPA",
+      "title": "Major GPA of 2.0 or higher",
+      "min": 2.0
+    }
+  ]
+}

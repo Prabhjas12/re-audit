@@ -1,0 +1,18 @@
+{
+  "id": "SO25", "kind": "major", "title": "Sociology B.A. (SO25)", "catalogYears": ["2026-27"],
+  "auditSection": "major", "advisor": "Sociology Advising (vac.ucsd.edu)",
+  "sources": [{ "label": "UC San Diego General Catalog: Sociology", "url": "https://catalog.ucsd.edu/curric/SOC-ug.html" }],
+  "notes": ["From the 2026-27 catalog's general sociology track. Optional concentrations aren't checked.", "Only one special-studies course may count, and at least eight upper-division courses must be taken in the department."],
+  "policy": { "exclusive": true, "minGrade": "C-", "letterGrade": true },
+  "groups": [
+    { "title": "Lower Division", "requirements": [
+      { "id": "lower", "title": "Sociology lower division", "slots": [["SOCI 1"], ["SOCI 2"], ["SOCI 60"], ["SOCI 10", "SOCI 20", "SOCI 30", "SOCI 40", "SOCI 50", "SOCI 70"]] }
+    ]},
+    { "title": "Upper Division", "requirements": [
+      { "id": "core", "title": "SOCI 100", "slots": [["SOCI 100"]] },
+      { "id": "methods", "title": "Methods", "count": 1, "options": ["SOCI 102", "SOCI 103M", "SOCI 104", "SOCI 104Q", "SOCI 105", "SOCI 106", "SOCI 106M", "SOCI 108", "SOCI 109", "SOCI 109M", "SOCI 110"] },
+      { "id": "electives", "title": "Upper-division sociology electives (10)", "count": 10, "options": ["SOCI 100-199"] }
+    ]}
+  ],
+  "checks": [{ "id": "gpa", "type": "programGPA", "title": "Major GPA of 2.0 or higher", "min": 2.0 }]
+}

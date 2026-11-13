@@ -1,0 +1,89 @@
+{
+  "id": "DS25",
+  "kind": "major",
+  "title": "Data Science B.S. (DS25)",
+  "catalogYears": ["Fall 2024"],
+  "match": { "majorCode": "DS25" },
+  "auditSection": "major",
+  "advisor": "Data Science Student Affairs (vac.ucsd.edu)",
+  "sources": [
+    { "label": "UC San Diego General Catalog: Data Science B.S.", "url": "https://catalog.ucsd.edu/curric/DSC-ug.html" },
+    { "label": "Requirement lists printed on the Fall 2024 TSS degree audit for DS25", "url": null }
+  ],
+  "notes": [
+    "Encoded from the course lists printed on a Fall 2024 catalog-year TSS audit, cross-checked against the current catalog. Newer catalog years add CSE 158R as a DSC 148 alternative and drop POLI 176 from the electives.",
+    "Any given course can satisfy only one major requirement.",
+    "Major courses need a letter grade of C- or better."
+  ],
+  "policy": { "exclusive": true, "minGrade": "C-", "letterGrade": true },
+  "groups": [
+    {
+      "title": "Lower Division",
+      "requirements": [
+        {
+          "id": "math", "title": "Mathematics", "audit": "^Mathematics",
+          "slots": [["MATH 18", "MATH 31AH"], ["MATH 20A"], ["MATH 20B"], ["MATH 20C", "MATH 31BH"]]
+        },
+        {
+          "id": "dsc-lower", "title": "Data Science lower division", "audit": "^Data Science$",
+          "slots": [["COGS 9"], ["DSC 10"], ["DSC 20"], ["DSC 30"], ["DSC 40A"], ["DSC 40B"], ["DSC 80"]]
+        },
+        {
+          "id": "domain", "title": "Subject Domain (one two-course sequence)", "audit": "^Subject Domain",
+          "oneOf": [
+            { "label": "Business Analytics and Econometrics", "slots": [["ECON 1"], ["ECON 3"]] },
+            { "label": "Science", "slots": [["BILD 1"], ["BILD 3"]] },
+            { "label": "Machine Learning and AI", "slots": [["COGS 14A"], ["COGS 14B"]] },
+            { "label": "Social Sciences I", "slots": [["POLI 5", "POLI 5D", "ECON 5"], ["POLI 30", "POLI 30D"]] },
+            { "label": "Social Sciences II", "slots": [["SOCI 60"], ["USP 4"]] }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Upper Division",
+      "requirements": [
+        {
+          "id": "core", "title": "Core", "audit": "^Core$",
+          "slots": [
+            ["MATH 189", "DSC 152"], ["DSC 100"], ["DSC 102"], ["DSC 106"],
+            ["DSC 140A", "CSE 150A"], ["DSC 140B", "CSE 151A"], ["DSC 148", "CSE 158", "CSE 158R"]
+          ]
+        },
+        {
+          "id": "core-stats", "title": "Core: MATH 181A, MATH 183 or ECON 120A", "audit": "^Core MATH ?181A",
+          "slots": [["MATH 181A", "MATH 183", "ECON 120A"]]
+        },
+        {
+          "id": "senior", "title": "Senior Project", "audit": "^Senior Project",
+          "slots": [["DSC 180A"], ["DSC 180B"]]
+        },
+        {
+          "id": "electives", "title": "Electives (20 units)", "audit": "^Electives",
+          "units": 20,
+          "options": [
+            "DSC 100-196",
+            "BICD 100", "BIEB 174",
+            "COGS 108", "COGS 109", "COGS 118C", "COGS 118D", "COGS 120", "COGS 121", "COGS 180", "COGS 181", "COGS 189",
+            "COMM 106I",
+            "CSE 106", "CSE 151B", "CSE 152A", "CSE 152B", "CSE 156", "CSE 166", "CSE 170", "CSE 180",
+            "ECON 120B", "ECON 120C",
+            "ESYS 103", "MAE 124", "LIGN 167",
+            "MATH 152", "MATH 173A", "MATH 173B", "MATH 180A", "MATH 180B", "MATH 180C",
+            "MATH 181A", "MATH 181B", "MATH 181C", "MATH 181D", "MATH 181E", "MATH 181F", "MATH 194",
+            "MGT 103", "MGT 153", "PHIL 174",
+            "POLI 117", "POLI 170A", "POLI 171", "POLI 172", "POLI 173", "POLI 176",
+            "PSYC 106", "SIO 109", "SIO 132",
+            "SOCI 102", "SOCI 103M", "SOCI 108", "SOCI 109", "SOCI 109M", "SOCI 136", "SOCI 165", "SOCI 171",
+            "USP 122", "USP 125", "USP 138", "USP 153", "USP 172", "USP 175", "USP 180"
+          ],
+          "suggest": ["DSC 190", "COGS 118C", "COGS 109", "CSE 158", "MATH 180A", "ECON 120B"]
+        }
+      ]
+    }
+  ],
+  "checks": [
+    { "id": "ud-units", "type": "programUpperDivUnits", "title": "48 upper-division units in the major", "min": 48, "auditBlock": "48 Upper Division Unit Requirement" },
+    { "id": "gpa", "type": "programGPA", "title": "Major GPA of 2.0 or higher", "min": 2.0 }
+  ]
+}

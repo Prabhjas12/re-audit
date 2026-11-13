@@ -1,0 +1,18 @@
+{
+  "id": "CM26", "kind": "major", "title": "Communication B.A. (CM26)", "catalogYears": ["2026-27"],
+  "auditSection": "major", "advisor": "Communication Advising (vac.ucsd.edu)",
+  "sources": [{ "label": "UC San Diego General Catalog: Communication", "url": "https://catalog.ucsd.edu/curric/COMM-ug.html" }],
+  "notes": ["From the 2026-27 catalog.", "Only one COMM 198 or 199 may count as an elective. At least eleven major classes must be taken at UC San Diego."],
+  "policy": { "exclusive": true, "minGrade": "C-", "letterGrade": true },
+  "groups": [
+    { "title": "Lower Division", "requirements": [
+      { "id": "intro", "title": "Introduction to Communication", "slots": [["COMM 10"]] }
+    ]},
+    { "title": "Upper Division", "requirements": [
+      { "id": "core", "title": "Core", "slots": [["COMM 100A"], ["COMM 100B"], ["COMM 100C"], ["COMM 190"]] },
+      { "id": "advanced", "title": "Advanced electives (2)", "count": 2, "options": ["COMM 120-189"] },
+      { "id": "electives", "title": "Upper-division electives (6)", "count": 6, "options": ["COMM 101-189", "COMM 198", "COMM 199"] }
+    ]}
+  ],
+  "checks": [{ "id": "gpa", "type": "programGPA", "title": "Major GPA of 2.0 or higher", "min": 2.0 }]
+}

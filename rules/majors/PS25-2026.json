@@ -1,0 +1,17 @@
+{
+  "id": "PS25", "kind": "major", "title": "Political Science B.A. (PS25)", "catalogYears": ["2026-27"],
+  "auditSection": "major", "advisor": "Political Science Advising (vac.ucsd.edu)",
+  "sources": [{ "label": "UC San Diego General Catalog: Political Science", "url": "https://catalog.ucsd.edu/curric/POLI-ug.html" }],
+  "notes": ["From the 2026-27 catalog's general major (no concentration).", "Up to two POLI 199 independent studies may be taken P/NP; this tool counts letter-graded courses only.", "At least ten political science courses must be taken at UC San Diego."],
+  "policy": { "exclusive": true, "minGrade": "C-", "letterGrade": true },
+  "groups": [
+    { "title": "Lower Division", "requirements": [
+      { "id": "intro", "title": "Three of POLI 10, 11, 12, 13", "count": 3, "options": ["POLI 10", "POLI 10D", "POLI 11", "POLI 11D", "POLI 12", "POLI 12D", "POLI 13", "POLI 13D"] },
+      { "id": "methods", "title": "POLI 30", "slots": [["POLI 30", "POLI 30D"]] }
+    ]},
+    { "title": "Upper Division", "requirements": [
+      { "id": "upper", "title": "Upper-division political science (12 courses)", "count": 12, "options": ["POLI 100-199"], "except": ["POLI 197I", "POLI 197SD"] }
+    ]}
+  ],
+  "checks": [{ "id": "gpa", "type": "programGPA", "title": "Major GPA of 2.0 or higher", "min": 2.0 }]
+}
