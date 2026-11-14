@@ -32,7 +32,7 @@ jobs:
       - name: Collect site files
         run: |
           mkdir _site
-          cp -r index.html css js rules samples vendor _site/
+          cp -r index.html robots.txt sitemap.xml css img js rules samples vendor _site/
           touch _site/.nojekyll
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3

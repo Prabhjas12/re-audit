@@ -3,10 +3,39 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Re-Audit: an unofficial second look at your UC San Diego degree audit</title>
-  <meta name="description" content="Checks your TSS degree audit and academic history in your browser, places every class, and drafts your advising messages. Unofficial.">
+  <title>Re-Audit: Check Your UCSD Degree Audit (Unofficial)</title>
+  <meta name="description" content="Free, unofficial tool for UC San Diego students. Compare your TSS degree audit with your academic history to find classes not applied yet and what's left.">
+  <meta name="keywords" content="UCSD degree audit, UC San Diego degree audit, TSS degree audit, Triton Student System, uAchieve, UCSD academic history, UCSD graduation requirements, UCSD major requirements, Sixth College GE, UCSD transfer credit, degree audit checker">
+  <link rel="canonical" href="https://reaudit.net/">
+  <meta name="theme-color" content="#0e6e66">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://static.cloudflareinsights.com; worker-src 'self' blob:; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230e6e66'/%3E%3Cpath d='M9 16.5l4.5 4.5L23 11.5' stroke='white' stroke-width='3.2' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="img/favicon-48.png" type="image/png" sizes="48x48">
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Re-Audit">
+  <meta property="og:url" content="https://reaudit.net/">
+  <meta property="og:title" content="Re-Audit: a second look at your UCSD degree audit">
+  <meta property="og:description" content="Free and unofficial. Finds UC San Diego classes your degree audit isn't counting yet and drafts your questions for advising. Runs entirely in your browser.">
+  <meta property="og:image" content="https://reaudit.net/img/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Re-Audit results showing requirements sorted into Still needed, Petition, Ask to apply, In progress and Done">
+  <meta name="twitter:card" content="summary_large_image">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Re-Audit",
+    "url": "https://reaudit.net/",
+    "description": "A free, unofficial tool that compares a UC San Diego student's TSS degree audit with their academic history, finds classes that aren't applied to a requirement yet, flags possible transfer petitions, and drafts questions for academic advising.",
+    "applicationCategory": "EducationalApplication",
+    "operatingSystem": "Any web browser",
+    "isAccessibleForFree": true,
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+    "audience": { "@type": "EducationalAudience", "educationalRole": "student", "audienceType": "UC San Diego undergraduates" }
+  }
+  </script>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -18,6 +47,10 @@
   </header>
 
   <main class="wrap">
+    <div class="intro">
+      <h1>Check your UC San Diego degree audit</h1>
+      <p class="muted">Re-Audit lines up your TSS degree audit with your academic history, finds classes that aren't counted yet, and drafts your questions for advising. Free, unofficial, and nothing leaves your computer.</p>
+    </div>
     <section class="steps" aria-label="Inputs">
       <div class="step">
         <div class="step-n">1</div>
@@ -66,6 +99,30 @@
     </div>
     <section id="results" aria-live="polite"></section>
   </main>
+
+  <section class="faq wrap" aria-label="Questions">
+    <h2>Questions</h2>
+    <details>
+      <summary>What does Re-Audit do?</summary>
+      <p>It reads the degree audit PDF you save from TSS (the Triton Student System) next to your My Academic History, and matches every class to your major, college and university requirements. Each requirement is marked Done, In progress, Ask to apply, Petition or Still needed, and anything unclear becomes a short, specific question you can send to your advisor through the Virtual Advising Center.</p>
+    </details>
+    <details>
+      <summary>Is my audit or academic history uploaded anywhere?</summary>
+      <p>No. Everything runs in your browser. There are no accounts and no server that receives your records, and Re-Audit doesn't use AI.</p>
+    </details>
+    <details>
+      <summary>Is this the official UCSD degree audit?</summary>
+      <p>No. Re-Audit is an unofficial student project and isn't affiliated with UC San Diego. The official degree audit and your advisors have the final word. Whenever the official audit shows a requirement as met, Re-Audit goes with the audit.</p>
+    </details>
+    <details>
+      <summary>Which majors and colleges does it cover?</summary>
+      <p>23 majors, including Computer Science, Computer Engineering, Electrical and Mechanical Engineering, Data Science, Mathematics, Biology, Cognitive Science, Psychology, Economics, Political Science, Communication and Sociology. It also checks Sixth College general education and university requirements (ELWR, AHI, DEI, total and upper-division units), and suggests UC Santa Cruz transfer classes that may count. If your major isn't covered yet, it still checks everything else.</p>
+    </details>
+    <details>
+      <summary>Why would my degree audit be missing classes?</summary>
+      <p>Classes sometimes show up on your academic history before they're applied to a requirement on the audit, especially transfer courses and classes that need an advisor to apply them by hand. Re-Audit points those out so you can ask advising to apply them or file a petition.</p>
+    </details>
+  </section>
 
   <footer class="foot wrap">
     <p>Unofficial student project, not affiliated with UC San Diego. Confirm anything important with your advisors.</p>
